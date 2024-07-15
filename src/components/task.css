@@ -56,7 +56,7 @@ body {
 
 .date-input {
   width: 200px;
-  height: 35px; /* Match height of task name input */
+  height: 35px;
   border-radius: 10px;
   border-color: black;
   border-width: 1px;
@@ -105,18 +105,18 @@ body {
 #uncheckedbox {
   font-size: 20px;
   padding-bottom: 5px;
-  margin-right: 5px; /* Adjusted value to move closer to title */
+  margin-right: 5px;
 }
 
 #checkedbox {
-  margin-right: 10px; /* Adjusted value to move closer to title */
+  margin-right: 10px;
 }
 
 .task-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px; /* Ensure same height for all tasks */
+  height: 50px;
 }
 
 #date-row {
@@ -130,12 +130,12 @@ body {
   width: 250px;
   margin: 5px;
   padding: 10px;
-  height: 70px; /* Ensure same height for all tasks */
+  height: 70px; 
 }
 
 .task-title {
-  margin-left: 0; /* Reset left margin */
-  margin-right: auto; /* Push the title to the left */
+  margin-left: 0; 
+  margin-right: auto;
 }
 
 .add-btn:hover {
